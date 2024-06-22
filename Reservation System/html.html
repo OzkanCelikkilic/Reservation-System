@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Theater Reservation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Part -->
+        <div class="left-part">
+            <h2>User Information</h2>
+            <form id="userForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <!-- Center Part -->
+        <div class="center-part">
+            <div id="adminPanel" class="admin-panel">
+                <h2>Admin Interface</h2>
+                <label for="rows">Number of Rows:</label>
+                <input type="number" id="rows" name="rows" min="1">
+                <label for="columns">Number of Columns:</label>
+                <input type="number" id="columns" name="columns" min="1">
+                <button id="setSeats">Set</button>
+            </div>
+            <h2>User Interface</h2>
+            <div id="seatingArea" class="seating-area"></div>
+        </div>
+
+        <!-- Right Part -->
+        <div class="right-part">
+            <h2>Selected Seats</h2>
+            <div id="reservationDetails">
+                <p><strong>Name:</strong> <span id="userName"></span></p>
+                <p><strong>Surname:</strong> <span id="userSurname"></span></p>
+                <p><strong>Selected Seats:</strong> <span id="selectedSeats"></span></p>
+                <p><strong>Total Price:</strong> $<span id="totalPrice"></span></p>
+                <button id="confirmReservation">Confirm Selection</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

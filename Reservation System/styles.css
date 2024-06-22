@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.left-part, .center-part, .right-part {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-part {
+    width: 25%;
+    background: #f9f9f9;
+}
+
+.center-part {
+    width: 45%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-part {
+    width: 25%;
+    background: #f9f9f9;
+}
+
+.left-part h2, .center-part h2, .right-part h2 {
+    color: #333;
+    text-align: center;
+}
+
+.left-part form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-part label {
+    margin-top: 10px;
+}
+
+.left-part input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.admin-panel {
+    text-align: center;
+}
+
+.seating-area {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seat.selected {
+    background-color: green;
+    color: white;
+}
+
+.seat:hover {
+    background-color: #ccc;
+}
+
+.right-part {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-part p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.right-part p strong {
+    font-weight: bold;
+}
+
+
+.left-part {
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-part form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left-part h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-part button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.center-part {
+    text-align: center;
+}
+
+.center-part h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.admin-panel {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+}
+
+.admin-panel label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.admin-panel input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admin-panel button {
+    width: 100%;
+}
+
+.seating-area {
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.right-part {
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right-part h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-part p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.right-part p strong {
+    font-weight: bold;
+}
+
+.right-part button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
