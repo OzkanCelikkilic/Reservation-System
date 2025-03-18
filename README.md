@@ -32,6 +32,8 @@ This project is an implementation of a reservation system for a movie theater sa
 - Displays the current user's name, surname, selected seats, and total price.
 - A “Confirm” button ends the reservation and displays a pop-up with the reservation information.
 
+## The Website
+![Ekran görüntüsü 2024-06-01 170726](https://github.com/OzkanCelikkilic/Reservation-System/assets/134146392/4f54ac8e-e111-4c85-ac02-ff85ac96dbfc)
 
 ## How to Run the Project
 1. Clone the repository:
@@ -44,5 +46,3 @@ This project is an implementation of a reservation system for a movie theater sa
     ```
 3. Open `index.html` in your preferred web browser.
 
-## The Website
-![Ekran görüntüsü 2024-06-01 170726](https://github.com/OzkanCelikkilic/Reservation-System/assets/134146392/4f54ac8e-e111-4c85-ac02-ff85ac96dbfc)
